@@ -8,7 +8,7 @@
           <a href="/" class="w-full py-4 pr-4 md:py-0">
             <span class="text-xl font-black leading-none text-gray-900 select-none logo">
               Gladstar Gifted and Talented School
-              <span class="text-indigo-600">microblog</span>
+              <span class="text-indigo-600">Subscription App</span>
             </span>
           </a>
           <div
@@ -38,7 +38,7 @@
             <span class="inline md:block">Facilitating Functional Education For The Next Innovators entrepreneurs and leaders.</span>
             <span
               class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500"
-            >Vue + Supabase</span>
+            >Your Online School</span>
           </h1>
         </div>
       </template>
