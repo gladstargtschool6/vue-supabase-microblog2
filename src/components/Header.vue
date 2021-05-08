@@ -7,7 +7,7 @@
         >
           <a href="/" class="w-full py-4 pr-4 md:py-0">
             <span class="text-xl font-black leading-none text-gray-900 select-none logo">
-              Vue + Supabase
+              Gladstar Gifted and Talented School
               <span class="text-indigo-600">microblog</span>
             </span>
           </a>
