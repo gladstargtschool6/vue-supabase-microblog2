@@ -21,7 +21,7 @@
                 href="/"
                 class="inline-flex items-center block w-auto h-16 px-6 text-xl font-black leading-none text-gray-900 select-none md:hidden"
               >
-                Vue + Supabase
+                Gladstar Gifted and Talented School
                 <span class="text-indigo-600">.</span>
               </a>
             </div>
@@ -35,7 +35,7 @@
           <h1
             class="text-5xl font-extrabold tracking-tight text-left text-gray-900 leading-tightest md:leading-10 md:text-center sm:leading-none md:text-6xl lg:text-7xl"
           >
-            <span class="inline md:block">Creating a microblog using</span>
+            <span class="inline md:block">Facilitating Functional Education For The Next Innovators entrepreneurs and leaders.</span>
             <span
               class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500"
             >Vue + Supabase</span>
