@@ -38,7 +38,7 @@
             <span class="inline md:block">Facilitating Functional Education For The Next Innovators entrepreneurs and leaders.</span>
             <span
               class="relative mt-2 text-transparent md:inline-block bg-clip-text bg-gradient-to-br from-purple-600 to-blue-500"
-            >Your Online School</span>
+            >Your Online School For The Gifted and Talented</span>
           </h1>
         </div>
       </template>
