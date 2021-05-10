@@ -5,10 +5,10 @@
         <div
           class="container relative flex flex-wrap items-center justify-between h-24 mx-auto font-medium border-b border-gray-200 lg:justify-center sm:px-4 md:px-2"
         >
-          <a href="/" class="w-full py-4 pr-4 md:py-0">
+          <a href="https://raw.githubusercontent.com/gladstargtschool6/nextjs/master/public/ic_launcher.png/" class="w-full py-4 pr-4 md:py-0">
             <span class="text-xl font-black leading-none text-gray-900 select-none logo">
               Gladstar Gifted and Talented School
-              <span class="text-indigo-600">Subscription App</span>
+              <span class="text-indigo-600">Tutoring App</span>
             </span>
           </a>
           <div
