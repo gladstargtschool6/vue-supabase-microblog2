@@ -25,13 +25,14 @@ export default {
   data: () => ({
     posts: [],
     database: null,
-  }),
+  }),.
   created() {
     const database = new DatabaseService();
     this.database = database.getInstance();
   },
   async mounted() {
     await this.fetchPosts();
+    this.subscribePosts();
   },
   methods: {
     async fetchPosts() {
@@ -49,6 +50,16 @@ export default {
     setPosts(posts) {
       this.posts = posts;
     },
+    subscribePosts() {
+      this.subscriptionPosts = this.database
+        .from('posts')
+        .on('INSERT', (message) => {
+          if (message.new) {
+            this.posts.push(message.new);
+          }
+        })
+        .subpscribe();
+     },
   },
 };
 </script>
