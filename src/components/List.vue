@@ -25,7 +25,7 @@ export default {
   data: () => ({
     posts: [],
     database: null,
-  }),.
+  }),
   created() {
     const database = new DatabaseService();
     this.database = database.getInstance();
