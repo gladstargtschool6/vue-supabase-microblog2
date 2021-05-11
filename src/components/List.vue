@@ -58,8 +58,11 @@ export default {
             this.posts.push(message.new);
           }
         })
-        .subpscribe();
+        .subscribe();
      },
+     unsubscribePosts() {
+       this.database.removeSubscription(this.subscriptionPost);
+    },
   },
 };
 </script>
