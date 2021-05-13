@@ -1,22 +1,15 @@
-import Vue from 'vue';
-import App from './App.vue';
-import VueRouter from 'vue-router';
-import router from './router.js';
-Vue.use(VueRouter);
+import Vue from 'vue'
+import App from './App.vue'
+import router from './router';
+import store from './store';
+import axios from 'axios';
 
-Vue.config.productionTip = false;
+axios.defaults.withCredentials = true
+axios.defaults.baseURL = 'https://imdvvfcbtrfewysxgrnr.supabase.co/';
 
-router.beforeEach((to, from, next) => {
-  if (to.name !== 'posts-list' && !to.params.title) {
-    next({
-      name: 'posts-list',
-    });
-    return;
-  }
-  next();
-});
-
+Vue.config.productionTip = false
 new Vue({
-  render: (h) => h(App),
+  store,
   router,
-}).$mount('#app');
+  render: h => h(App)
+}).$mount('#app')
