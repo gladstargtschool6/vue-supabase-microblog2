@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
-import auth from './src/store/modules/auth.js'
 
 Vue.config.productionTip = false
 
