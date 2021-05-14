@@ -19,3 +19,9 @@ export default {
   actions,
   mutations
 };
+// ~/middleware/authenticated.js
+export default ({ $supabase, redirect }) => {
+	if (!$supabase.auth.session()) {
+		return redirect('/sign-in')
+	}
+}
