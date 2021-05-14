@@ -5,7 +5,9 @@ module.exports = {
       template: 'public/index.html',
       title: 'Welcome to my vue generator project',
       chunks: ['chunk-vendors', 'chunk-common', 'index']
-   
+    },
+    
+    */
   },
   devServer: {
     'port': 3000
