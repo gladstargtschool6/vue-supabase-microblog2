@@ -7,7 +7,6 @@ module.exports = {
       chunks: ['chunk-vendors', 'chunk-common', 'index']
     },
     
-    */
   },
   devServer: {
     'port': 3000
