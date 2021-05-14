@@ -9,7 +9,13 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
   </head>
   <body>
-<!-- ~/pages/sign-in -->
+
+    <script>
+      <strong><%= htmlWebpackPlugin.options.title %></strong>
+    </script>
+    <div id="app">
+    <!-- built files will be auto injected -->
+	  <!-- ~/pages/sign-in -->
 <template>
 	<form @submit.prevent="submit()">
 		<input type="email" v-model="email" />
@@ -74,12 +80,7 @@ export default {
 		},
 	},
 }
-</script>
+</script></div>    
 
-    <script>
-      <strong><%= htmlWebpackPlugin.options.title %></strong>
-    </script>
-    <div id="app"></div>
-    <!-- built files will be auto injected -->
   </body>
 </html>
