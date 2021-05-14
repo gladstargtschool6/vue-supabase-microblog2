@@ -9,6 +9,42 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.2/tailwind.min.css">
   </head>
   <body>
+<!-- ~/pages/sign-in -->
+<template>
+	<form @submit.prevent="submit()">
+		<input type="email" v-model="email" />
+		<input type="password" v-model="password" />
+		<button type="submit">Sign In</button>
+	</form>
+</template>
+
+<script>
+export default {
+	data() {
+		return {
+			email: '',
+			password: '',
+		}
+	},
+	methods: {
+		submit() {
+			this.$supabase.auth
+				.signIn({
+					email: this.email,
+					password: this.password,
+				})
+				.then(({ error, data }) => {
+					if (error) {
+						alert(error.message)
+					} else {
+						this.$router.push('/')
+					}
+				})
+		},
+	},
+}
+</script>
+
     <script>
       <strong><%= htmlWebpackPlugin.options.title %></strong>
     </script>
