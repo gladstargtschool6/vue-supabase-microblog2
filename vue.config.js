@@ -7,18 +7,5 @@ module.exports = {
       chunks: ['chunk-vendors', 'chunk-common', 'index']
     },
     
-  },
-  devServer: {
-    'port': 3000
-  },
-  css: {
-    sourceMap: false
-  },
-  pwa: {
-    name: 'GladstarGTSchool',
-    themeColor: '#4DBA87',
-    msTileColor: '#000000',
-    appleMobileWebAppCapable: 'yes',
-    appleMobileWebAppStatusBarStyle: 'black',
-  },
+
 }
